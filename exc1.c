@@ -14,6 +14,6 @@ int main ()
 		{
 			printf ("this year your cat is %d years old \n" , minou) ;
 		} 
+		minou = minou + 1  ;
 	}
-	minou = minou  ;
 }
