@@ -11,8 +11,11 @@ int flop(int number)
 
 int main() 
 {
-int result = flop(4) ;
-printf("you have %d bitches", result);
+int nendo = 0 ;
+printf("gimme number\n") ;
+scanf("%d", &nendo) ;
+int result = flop(nendo) ;
+printf("you have %d bitches\n", result);
 
 }
 
