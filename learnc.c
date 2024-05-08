@@ -1,18 +1,28 @@
-// 
+//declare and use functions 
 #include <stdio.h>
-#include <stdlib.h>
-int main ()
-{ 
+#include "learnc.h"
 
-int saiki ;
-for (saiki = 0 ; saiki <= 10 ; saiki++)
+void pom()
 {
-	printf("yare yare \n");
+	hello() ;
+}
+
+void hello()
+{
+	printf("hello\n");
+} 
+
+int main() 
+{
+pom() ;
 
 }
 
 
-	
-}
+
+
+
+
+
 
 
