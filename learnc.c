@@ -3,42 +3,26 @@
 #include <time.h>
 #include<stdlib.h>
 
+void calcul(int *pointeur1);
+
 int main ()
 {
 
-int given = 0;
-srand(time(NULL)) ;
-int number1 = (rand()%100)+1;
+	int nombre = 6;
+	calcul( &nombre);
+	printf("le double de nombre est : %d\n",nombre );
+	return 0;
 
-while (!(given==number1))
+
+}
+
+
+
+void calcul(int *pointeur1)
 {
-	printf("can you guess the number?\n");
-	scanf("%d",&given);
-	if (given>number1)
-	{
-		printf("too big\n");
-	}
-
-	else if (given<number1)
-	{
-		printf("too small\n");
-	}
-	else 
-	{
-		printf("correct!\n");
-	}
-}
-
-
-return 0;
+	*pointeur1 *= 2;
 
 }
-
-
-
-
-
-
 
 
 
