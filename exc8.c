@@ -1,11 +1,14 @@
+//same thing as exc9 but without function
 #include <stdio.h>
 #include "learnc.h"
 
 int main() 
 {
-	int pompom=7;
-	int pomdouble = pompom *2;
-	int *popy = &pomdouble;
-	printf("pompom's double value is %d", *popy); 
-	return 0;
+int minou = 2;
+int *pminou = &minou ;
+*pminou *=2;
+
+printf("double minou is %d\n", *pminou);
+
+return 0;
 }
