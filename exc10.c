@@ -10,7 +10,9 @@ int main ()
 
 int heure , minute ;
 heure = 0;
-minute = 129;
+minute = 0;
+printf("dites un nombre de minutes\n");
+scanf ("%d", &minute);
 
 horloge (&heure, &minute);
 
@@ -25,6 +27,7 @@ int horloge (int *h,int *min)
 	*min %=60;
 	return 0;
 }
+
 
 
 
