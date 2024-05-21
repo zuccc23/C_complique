@@ -12,12 +12,7 @@ for (i=0; i<11; i++)
 	scanf("%c", &yap[i]);
 }
 
-printf("your name is ");
-int b=0;
-for (b=0; b<11; b++)
-{
-	printf("%c", yap[b]);
-}
+printf("your name is %s\n", yap);
 
 }
 
