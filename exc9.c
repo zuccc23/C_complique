@@ -8,7 +8,7 @@ void calcul(int *pointeur1);
 int main ()
 {
 
-	int nombre = 6;
+	int nombre = 9;
 	calcul( &nombre);
 	printf("le double de nombre est : %d\n",nombre );
 	return 0;
