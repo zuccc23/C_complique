@@ -7,7 +7,7 @@ int main()
 char yap[]={'0'};
 
 printf("whats your name?\n");
-scanf("%s", &yap[0]);
+scanf("%s", yap);
 
 printf("your name is %s? ugly ass name\n", yap);
 
