@@ -17,6 +17,14 @@ char copyamada[45];
 strcpy(copyamada, uchiyamada);
 printf("%s quoi? %s\n", uchiyamada, copyamada);
 
+//strcat to 'catenate' : put one string after another
+char fuyutsuki[60]="qui a fait ca? ";
+char uchiyamada1[]="ONIZUKAAAAAAAAAA";
+
+strcat(fuyutsuki, uchiyamada1);
+printf("%s\n", fuyutsuki);
+
+
 
 }
 
