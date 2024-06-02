@@ -56,6 +56,17 @@ char *findephrase; //pointeur ds lequel va être stocké le résultat de strchr
 int leO='o';//caractère recherché
 findephrase=strchr(onini, leO);//fonction qui prend la chaine et le caractère 
 printf("%s\n", findephrase);//imprime le pointeur qui contient le reste du string à partir du caractère recherché
+
+//prototype des autres fonctions prcq j'en ai marre de ce foutu chapitre
+char* strpbrk(const char* chaine, const char* lettresARechercher);
+// -> cherche des caractères dans une chaine a partir de plusieurs caractères
+
+char* strstr(const char* chaine, const char* chaineARechercher);
+//cherche une chaine dans une autre chaine
+
+   sprintf(chaine, "Tu as %d ans !", age);
+//ecris dans une chaine ! cette fonction est dans stdio.h, pas string.h
+
 }
 
 
