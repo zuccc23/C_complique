@@ -12,7 +12,7 @@ int number1 = (rand()%100)+1;
 
 while (!(given==number1))
 {
-	printf("can you guess the number?\n");
+	printf("can you guess the number?\n"); //
 	scanf("%d",&given);
 	if (given>number1)
 	{
