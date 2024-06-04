@@ -23,4 +23,4 @@ void calcul(int *pointeur1)
 	*pointeur1 *= 2;
 
 }
-
+//les pointeurs c dur :(
