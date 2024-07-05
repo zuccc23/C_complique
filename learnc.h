@@ -1,3 +1,9 @@
+#ifndef learnc
+#define learnc
+
+#include<stdio.h>
+#include<stdlib.h>
+#include "test.h"
 
 void print_tableint(int table[], int number );
 
@@ -10,3 +16,5 @@ void print_tableint(int table[], int number )
 		printf("%d\n", table[i]);
 	}
 }
+
+#endif
