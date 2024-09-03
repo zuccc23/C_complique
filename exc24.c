@@ -1,4 +1,4 @@
-//popopopopop
+//use structures with functions
 #include <stdlib.h>
 #include <stdio.h>
 #include "learnc.h"
