@@ -1,1 +1,2 @@
-First steps at learning C.
+# Learning C
+Very first steps at learning C.
